@@ -13,3 +13,12 @@ function shout(string){
 function whisper(string){
   console.log(string.toLowerCase());
 }
+
+function sayHiToGrandma(string){
+  if string=== whisper(string){
+    return 
+  };
+    elseif string === shout(string){
+      
+    }
+}
