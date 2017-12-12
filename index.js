@@ -8,7 +8,9 @@ function sayHiToGrandma(string){
     elseif (string === "I love you, Grandma.");{
       return "I love you, too.";
     }
-}function shout(string){
+}
+
+function shout(string){
   return string.toUpperCase();
 }
 
