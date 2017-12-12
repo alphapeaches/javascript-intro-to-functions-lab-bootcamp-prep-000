@@ -6,19 +6,19 @@ function whisper(string){
   return string.toLowerCase();
 }
 
-function shout(string){
+function logShout(string){
   console.log(string.toUpperCase());
 }
 
-function whisper(string){
+function logWhisper(string){
   console.log(string.toLowerCase());
 }
 
 function sayHiToGrandma(string){
   if string=== whisper(string){
-    return 
+    return "I can't hear you"
   };
     elseif string === shout(string){
-      
+      return "YES INDEED"
     }
 }
